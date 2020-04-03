@@ -15,7 +15,7 @@ role: Master's Student
 # Organizations/Affiliations
 organizations:
 - name: Shanghai University
-  url: "www.shu.edu.cn"
+  url: "https://www.shu.edu.cn"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests sre Artificial Intelligence and Machine Learning methods in advanced wireless system applications.
