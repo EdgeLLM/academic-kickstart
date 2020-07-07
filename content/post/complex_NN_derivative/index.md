@@ -18,7 +18,7 @@ draft: false
 image:
   placement: 3
   caption: ""
-  focal_point: "Center"
+  focal_point: Smart
   preview_only: false
 
 # Projects (optional).
