@@ -47,7 +47,7 @@ social:
   link: https://twitter.com/XiaolinHu3
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?hl=zh-CN&user=6CSzbVEAAAAJ 
 - icon: github
   icon_pack: fab
   link: https://github.com/xiaulinhu
