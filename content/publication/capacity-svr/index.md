@@ -21,7 +21,7 @@ publication_types: ["1"]
 publication: "2019 IEEE Asia-Pacific Microwave Conference"
 publication_short: "APMC"
 
-abstract: "The achievable capacity of Multi Input Multi Output (MIMO) capable wireless systems over a geographic area is an important quantity for system planning. Given the characteristics of the propagation environment and the specifics of the antenna systems on both sides of the link, the capacity can be evaluated in a straightforward and `exact' albeit tedious and time consuming manner. This paper employs a Support Vector Regression (SVR) approach to create a machine learning model of the capacity and thus evaluate it fast, requiring only a fraction of `exact' calculations. For purposes of system planning, it is seen that reasonable accuracy can be achieved with SVR at about 10-15%of the computational effort of the `exact' approach."
+abstract: "The achievable capacity of Multi Input Multi Output (MIMO) capable wireless systems over a geographic area is an important quantity for system planning. Given the characteristics of the propagation environment and the specifics of the antenna systems on both sides of the link, the capacity can be evaluated in a straightforward and 'exact' albeit tedious and time consuming manner. This paper employs a Support Vector Regression (SVR) approach to create a machine learning model of the capacity and thus evaluate it fast, requiring only a fraction of `exact' calculations. For purposes of system planning, it is seen that reasonable accuracy can be achieved with SVR at about 10-15%of the computational effort of the `exact' approach."
 
 # Summary. An optional shortened abstract.
 summary: "A study of capacity estimation in MIMO wireless system using SVR algorithm"
