@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Physics Informed Deep Learning for Solving Partial Differential Equations"
+title: "Physics Informed Deep Learning"
 summary: ""
 authors: [Xiaolin Hu]
 tags: [PINN, DL]
