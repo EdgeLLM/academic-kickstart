@@ -5,7 +5,7 @@ title: "Physics Informed Deep Learning"
 summary: ""
 authors: [Xiaolin Hu]
 tags: [PINN, DL]
-categories: []
+categories: [Deep Learning]
 date: 2020-07-07T22:07:29+08:00
 
 # Optional external URL for project (replaces project detail page).
