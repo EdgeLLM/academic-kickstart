@@ -4,8 +4,10 @@
 title: "Physics Informed Deep Learning"
 summary: ""
 authors: [Xiaolin Hu]
-tags: [PINN, DL]
-categories: [Deep Learning]
+tags:
+- Deep Learning 
+categories: 
+- PINN PDEs 
 date: 2020-07-07T22:07:29+08:00
 
 # Optional external URL for project (replaces project detail page).
@@ -17,7 +19,7 @@ external_link: ""
 image:
   caption: PINN for Solving Burger Equations
   focal_point: Smart
-  preview_only: false
+  preview_only: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
