@@ -41,3 +41,11 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+## Physics-Informed Neural Network 
+Physics-informed neural networks aim at solving 
+
+## Solving the Burgers' Equation 
+
+## Solving the Helmholtz Equation
+
