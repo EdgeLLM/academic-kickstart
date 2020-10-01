@@ -27,6 +27,8 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+## 分类问题
 首先用分类问题对SVM的原理进行解释。现有如下图所示的二分类问题，目的是找到一个合适的超平面有效地区分正号与负号，就可以以此为基准对未知种类的点进行预测。
 $$\boldsymbol{w} \cdot \boldsymbol{u} \geq c$$
 $$\boldsymbol{w} \cdot \boldsymbol{u} + b \geq 0, b = -c$$

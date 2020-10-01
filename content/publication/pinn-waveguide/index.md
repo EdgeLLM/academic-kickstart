@@ -99,14 +99,36 @@ where $k=2\pi f/c$,  $f$ is the frequency, $c$ is the speed of sound, $H_z\equiv
 
 As a special case, we restrict ourselves to the Transverse Electric,  ${TE}_{mn}$, modes, which have $E_z=0$. All other components of electromagnetic (EM) fields can be derived from Hz using the following equations
 
+$$
+\begin{array}{l}
+{\left[\begin{array}{l}
+E_{x} \\
+E_{y}
+\end{array}\right]=\frac{j \omega \mu}{k^{2}-\beta^{2}}\left[\begin{array}{c}
+-\frac{\partial H_{z}}{\partial y} \\
+\frac{\partial H_{z}}{\partial x}
+\end{array}\right]} \\
+\end{array}  \tag{2}
+$$
 
 $$
+\begin{array}{l}
+{\left[\begin{array}{l}
+H_{x} \\
+H_{y}
+\end{array}\right]=-\frac{j \beta}{k^{2}-\beta^{2}}\left[\begin{array}{l}
+\frac{\partial H_{z}}{\partial x_{z}} \\
+\frac{\partial H_{z}}{\partial y}
+\end{array}\right]}
+\end{array} \tag{3}
+$$
+<!-- $$
 \left[\begin{matrix}E_x\\E_y\\\end{matrix}\right]=\frac{j\omega\mu}{k^2-\beta^2}\left[\begin{matrix}-\frac{\partial H_z}{\partial y}\\\frac{\partial H_z}{\partial x}\\\end{matrix}\right]  \tag{2}
 $$
 
 $$
 \left[\begin{matrix}H_x\\H_y\\\end{matrix}\right]=-\frac{j\beta}{k^2-\beta^2}\left[\begin{matrix}\frac{\partial H_z}{\partial x}\\\frac{\partial H_z}{\partial y}\\\end{matrix}\right] \tag{3}
-$$
+$$ -->
 
 The pertinent boundary conditions (BC) are 
 $$
