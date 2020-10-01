@@ -80,7 +80,7 @@ We set up the following problem. We randomly distribute $2^{10}$ Rx radios in a 
 <figure style="margin: auto auto; text-align: center; width:100%" vertical-align='middle'>
     <img src='capacity-svr-model.png' alt='ellipses' width='60%' style='margin:3% 3%; display:inline-block' text-align='center' vertical-align='middle'/>
 
-    <figcaption>Fig.1 System Model</figcaption>
+    Fig.1 System Model.
 </figure>
 
 Then, we use the capacity of a subset of Tx-Rx pairs as “training data” in a machine learning scheme and derive a “ML capacity model” which is used to estimate the capacity everywhere, not just at the location of the training Rx radios. We then compare the capacity estimated by the ML capacity model to the ‘exact’ capacity as calculated by MIMObit.
@@ -91,7 +91,7 @@ All simulations in this paper are performed using a $times2$ MIMO scheme. Specif
 <figure style="margin: auto auto; text-align: center; width:100%" vertical-align='middle'>
     <img src='capacity-svr.png' alt='ellipses' width='100%' style='margin:3% 3%; display:inline-block' text-align='center' vertical-align='middle'/>
 
-    <figcaption>Fig.2 True and SVR estimated capacity of a 4×2 MIMO wifi system. The white crosses represent the locations of sensors./figcaption>
+    True and SVR estimated capacity of a 4×2 MIMO wifi system. The white crosses represent the locations of sensors.
 </figure>
 
 Fig. 2 shows the “true” and estimated capacity over the interested area. The number of sensors is 90, about 9% of the RX radios. The estimated capacity matches well the true one.
@@ -105,7 +105,7 @@ $$
 <figure style="margin: auto auto; text-align: center; width:100%" vertical-align='middle'>
     <img src='interference-effect.png' alt='ellipses' width='60%' style='margin:3% 3%; display:inline-block' text-align='center' vertical-align='middle'/>
 
-    <figcaption>Fig.3 SVR estimated capacity NMSE (three interference power values)./figcaption>
+    Fig.3 SVR estimated capacity NMSE (three interference power values).
 </figure>
 
 Fig. 3 depicts the NMSE for different values of N and interference power. The propagation model is set as TGn-B. The total interference power is 0 dBm, 15 dBm and 30 dBm, respectively. It can be seen that the performance improves with N for different interference power values and the NMSE of lower interference has better performance. Here the reason is that higher interference resulted in more complex features, which are difficult to capture with SVR.
@@ -113,7 +113,7 @@ Fig. 3 depicts the NMSE for different values of N and interference power. The pr
 <figure style="margin: auto auto; text-align: center; width:100%" vertical-align='middle'>
     <img src='model-effect.png' alt='ellipses' width='60%' style='margin:3% 3%; display:inline-block' text-align='center' vertical-align='middle'/>
 
-    <figcaption>Fig.4 SVR estimated capacity NMSE for different propagation models./figcaption>
+    Fig.4 SVR estimated capacity NMSE for different propagation models.
 </figure>
 
 To illustrate the effects of scene complexity, Fig. 4 shows the NMSE as a function of N for different propagation models. Flat-Earth is a two-ray model and line-of-sight (LOS) corresponds to direct path propagation. Both of these models are simple and deterministic. While TGn-B is an indoor IEEE WiFi propagation model comprised of two random clusters of plane waves [16]. The first cluster has five plane waves, while the second has seven. The SVR runs better when the actual model is simple. As anticipated, the NMSEs are larger for TGn-B as compared to LOS and Flat-Earth. This is because the LOS and Flat-Earth models are deterministic and just a couple of parameters can capture their physics. However, in the TGn-B model, even though its major attributes are governed by given statistics, the specific instantiations are random and, thus, its physical behavior is not as easily captured.
@@ -122,7 +122,7 @@ To illustrate the effects of scene complexity, Fig. 4 shows the NMSE as a functi
 <figure style="margin: auto auto; text-align: center; width:100%" vertical-align='middle'>
     <img src='gaussian-effect.png' alt='ellipses' width='100%' style='margin:3% 3%; display:inline-block' text-align='center' vertical-align='middle'/>
 
-    <figcaption>Fig.5 Comparison of SVR and GPR./figcaption>
+    Fig.5 Comparison of SVR and GPR.
 </figure>
 
 Similarly to SVR, Gaussian process regression (GPR) is another kernel-based machine learning algorithm. The solid lines represent the SVR algorithm and the dashed lines represent GPR algorithm. Different colors correspond to different channel models or interference powers. Whether we focus on performance for different propagation models or for different interference power, Support vector regression is always better than Gaussian process regression.
