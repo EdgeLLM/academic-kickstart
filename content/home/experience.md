@@ -18,9 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
   
+links:
+- name: Follow
+  url: https://twitter.com
+  icon_pack: fab
+  icon: twitter
+
+links:
+- name: Follow
+  url: https://twitter.com
+  icon_pack: fab
+  icon: twitter
 
 [[experience]]
   icon = "oppo"
+  icon = 'twitter'
   title = "CEO"
   company = "GenCoin"
   company_url = ""
